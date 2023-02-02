@@ -119,6 +119,9 @@ header{
         width: 85%;
         margin: 15% auto;
     }
-   
+    .sg-faculties h2, .sg-news h3 , .sg-reviews h3{
+        font-size: 2rem;
+    
+    }
   
 }
