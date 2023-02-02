@@ -110,9 +110,7 @@ footer #bottom p{
         line-height: 300%;
         font-size: 20px;
     }
-    /* nav {
-        background-color: #4681D5;
-    } */
+ 
     nav .sg-menuBar{
         justify-content: start;
         align-items: flex-end;
