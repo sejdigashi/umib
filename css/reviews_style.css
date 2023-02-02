@@ -1,0 +1,26 @@
+
+header{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../img/students1.jpeg');
+    background-position: center;
+
+}
+.sg-reviews{
+    margin-top: 100px;
+
+}
+.sg-reviews img{
+    object-fit:cover;
+}
+.card{
+    min-height: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.sg-reviews .fa{
+    color: #FFDD43;
+}
+.sg-reviews #sg-quoteIcon{
+    color: #000;
+}
