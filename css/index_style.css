@@ -92,6 +92,7 @@ header{
 }
 .sg-newsBtn a:hover{
     background-color: #0047AB;
+    color: #fff !important;
     transition: .8s;
 }
 .sg-reviews{
