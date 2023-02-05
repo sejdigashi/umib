@@ -1,5 +1,4 @@
 
-const menu = document.querySelector('.sg-menuBar')
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll',() => {
@@ -10,7 +9,7 @@ window.addEventListener('scroll',() => {
   }
 })
 
-
+const menu = document.querySelector('.sg-menuBar')
 const hamburger = document.querySelector('.sg-hamburger');
 
 hamburger.addEventListener("click", () => {
