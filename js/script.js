@@ -1,5 +1,5 @@
 
-var menu = document.querySelector('.sg-menuBar')
+const menu = document.querySelector('.sg-menuBar')
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll',() => {
