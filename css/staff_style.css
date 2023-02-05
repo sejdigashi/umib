@@ -53,25 +53,8 @@ body {
     min-height: 100%;
     height: auto;
 }
-/* .box:hover{
-  box-shadow: 0 0 30px 0 rgba(0,0,0,0.6);
-  transform: scale(1.15);
-  cursor: pointer;
-}
-   */
-
-
-
 .col-md-6{
   margin-top: 50px !important;
-}
-
-@media screen and (max-width:767px) {
-  header{
-    background-position-x: center;
-    background-position-y: bottom;
-  }
- 
 }
 
 
