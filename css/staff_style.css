@@ -1,0 +1,62 @@
+
+header{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../img/staff.jpeg');
+    background-position: center;
+
+}
+body {
+    background: #eee;
+  }
+.sg-staff{
+    position: relative;
+}
+.sg-staff h1{
+  font-size: 2.2rem;
+  margin-top: 70px;
+  font-weight: 800;
+  color: #0047AB;
+}
+.sg-btn{
+  margin-top: 20px;
+}
+.sg-btn a{
+  color: #fff !important;
+  border: 2px solid #5d91da;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #5d91da;
+}
+
+  .name {
+    color: #000;
+    font-weight: 600;
+  }
+  .work{
+    font-weight: 600 !important;
+  }
+  .work {
+    font-weight: bold;
+    font-size: 0.938rem;
+  }
+  
+  .about span {
+    font-size: 0.8rem;
+  }
+
+
+
+  .box {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    min-height: 100%;
+    height: auto;
+}
+.col-md-6{
+  margin-top: 50px !important;
+}
+
+
+
+

@@ -1,0 +1,126 @@
+
+header{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../img/umib2.jpeg');
+    background-position: top;
+
+}
+.sg-location{
+    margin-top: 50px;
+}
+.sg-location iframe{
+    margin-top: 3%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.sg-location h2{
+    color: #0047AB;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.sg-contact #contact-box{
+    border-radius: 30px;
+    margin-top: 15%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(192, 192, 192,0.3);
+}
+.sg-contactInfo .sg-box{
+    padding: 30px;
+}
+
+.sg-contactInfo .sg-box .sg-info{
+    display: flex ;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.sg-contactInfo .fa{
+    width: 60px;
+    height: 60px;
+    font-size: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA4A44;
+    border-radius: 30px; 
+    color: #000;
+    background-color: rgb(192, 192, 192);
+    display: flex;
+}
+.sg-contactForm h2{
+    font-size: 1.875rem;
+    margin-bottom: 10%;
+    font-weight: 400;
+}
+.sg-contactInfo h3 , p{
+    padding-left: 70px;
+}
+.sg-contactInfo h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.sg-contactInfo p{
+    font-weight: 300;
+}
+.sg-contactForm{
+    padding: 40px;
+}
+
+.sg-contactForm .sg-inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.sg-contactForm .sg-inputBox input, textarea {
+    width: 100%;
+    padding: 5px 0;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1.5px solid #000;
+    background-color: transparent;
+}
+.sg-contactForm span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.sg-contactForm .sg-inputBox input:valid ~ span, input:focus ~ span{
+    color: #e91e63;
+    font-size: 0.938;
+    transform: translateY(-25px);
+}
+.sg-contactForm .sg-inputBox textarea:valid ~ span, textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 0.938rem;
+    transform: translateY(-40px)
+}
+.sg-contactForm .sg-inputBox input[type="submit"]{
+    border: 2px solid #AA4A44;
+    padding: 10px 10px;
+    width: 25%;
+    background-color: transparent;
+    color: #AA4A44;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.sg-contactForm .sg-inputBox input[type="submit"]:hover {
+    background-color: #AA4A44;
+    color: #fff;
+    transition: 1s;
+}
+@media screen and (max-width:767px) {
+    .sg-contact #contact-box{
+        border-radius: 0;
+        margin-top: 35%;
+    }
+    .sg-contactForm .sg-inputBox input[type="submit"]{
+        width: 40%;
+    }
+
+}
